@@ -5,4 +5,4 @@ CREATE TABLE `e_commerce_olist`.`geolocation` (
   `geolocation_lng` DECIMAL(20,17) NOT NULL,
   `geolocation_city` VARCHAR(50) NULL,
   `geolocation_state` VARCHAR(2) NULL,
-  PRIMARY KEY (`geolocation_lat`, `geolocation_lng`));
+  PRIMARY KEY (`geolocation_zip_code_prefix`, `geolocation_lat`, `geolocation_lng`));
