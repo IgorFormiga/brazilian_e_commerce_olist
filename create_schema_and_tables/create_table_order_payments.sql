@@ -4,5 +4,4 @@
   `order_paymentscol` INT NOT NULL,
   `payment_type` VARCHAR(20) NULL,
   `payment_installments` INT NULL,
-  `payment_value` DECIMAL(8,2) NULL,
-  PRIMARY KEY (`order_id`));
+  `payment_value` DECIMAL(8,2) NULL);

@@ -6,5 +6,4 @@
   `seller_id` VARCHAR(35) NOT NULL,
   `shipping_limit_date` DATETIME NULL,
   `price` DECIMAL(6,2) NULL,
-  `freight_value` DECIMAL(5,2) NULL,
-  PRIMARY KEY (`order_id`));
+  `freight_value` DECIMAL(5,2) NULL);

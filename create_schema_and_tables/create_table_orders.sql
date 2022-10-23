@@ -7,5 +7,4 @@ CREATE TABLE `e_commerce_olist`.`orders` (
   `order_approved_at` datetime NULL,
   `order_delivered_carrier_date` datetime NULL,
   `order_delivered_customer_date` datetime NULL,
-  `order_estimated_delivery_date` datetime NULL,
-  PRIMARY KEY (`order_id`));
+  `order_estimated_delivery_date` datetime NULL);
