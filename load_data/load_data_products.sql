@@ -14,7 +14,7 @@ LOAD DATA INFILE 'olist_products_dataset.csv'
   @vproduct_height_cm,
   @vproduct_width_cm)
   SET
-  product_name_lenght = NULLIF(@vproduct_name_lenght,''),
+  product_category_name = NULLIF(@vproduct_category_name,''),
   product_name_lenght = NULLIF(@vproduct_name_lenght,''),
   product_description_lenght = NULLIF(@vproduct_description_lenght,''),
   product_photos_qty = NULLIF(@vproduct_photos_qty,''),
