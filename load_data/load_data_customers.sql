@@ -4,8 +4,8 @@ LOAD DATA INFILE 'olist_customers_dataset.csv'
   OPTIONALLY ENCLOSED BY '"'
   LINES TERMINATED BY '\n'
   IGNORE 1 LINES
-  (id_order,
-  id_customer,
+  (customer_id,
+  customer_unique_id,
   zip_code_prefix,
   @vcity,
   @vstate)
@@ -13,4 +13,3 @@ LOAD DATA INFILE 'olist_customers_dataset.csv'
   city = NULLIF(@vcity,''),
   state = NULLIF(@vstate,'')
   ;
-  
