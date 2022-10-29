@@ -1,6 +1,6 @@
 # **Projeto: Modelagem Dimensional**
 
-### **Objetivo:** Objetivo do projeto é realizar um estudo aprofundado sobre a modalagem dimensional e construção de um banco de dados.
+### **Objetivo:** Objetivo do projeto é realizar um estudo aprofundado sobre a modelagem dimensional e construção de um banco de dados.
 
 ### **Linguagem de programação:** SQL
 
@@ -8,7 +8,7 @@
 
 ### **Etapas:**
 
-- Criação do Schema para carrecamento dos dados (sem relacionamento);
+- Criação do Schema para carregamento dos dados (sem relacionamento);
 - Criação do Schema para comportar o modelo relacional a partir de um Schema;
 - Realização da modelagem dimensional e criação do Schema para comportar o modelo dimensional; 
 
