@@ -1,16 +1,24 @@
 # **Projeto: Modelagem Dimensional**
 
-### **Objetivo:** Objetivo do projeto é realizar um estudo aprofundado sobre a modelagem dimensional e construção de um banco de dados.
+### **Objetivo:** Design e implementação de um data warehouse.
 
 ### **Linguagem de programação:** SQL
 
 ### **Banco de dados:** MySQL Workbench 
 
-### **Etapas:**
+### **Descrição:**
+O projeto será desenvolvido em um ambiente de estudo (simulação), por conta disso existe algumas limitações físicas em questão de hardware (uma máquina virtual e um banco de dados). Na hora de implementar o DW o ideal seria possuir pelo menos três bancos de dados que são: banco de dados de origem (modelo transcional), banco de dados para área intermediária (stage area) e banco de dados para o DW.
 
-- Criação do Schema para carregamento dos dados (sem relacionamento);
-- Criação do Schema para comportar o modelo relacional a partir de um Schema;
-- Realização da modelagem dimensional e criação do Schema para comportar o modelo dimensional; 
+Como alternativa para simulação, será criado quatro Schemas no Workbench do MySQL dentro do mesmo banco. Os Schemas são: e_commerce_olist, trasactional_model, stage_area e data_warehouse.
+
+#### **Schemas:**
+
+- e_commerce_olist (source): Schema para carregamento dos dados sem relacionamento entre tabelas e chaves;
+- trasactional_model: Schema para comportar o modelo relacional a partir do Schema e_commerce_olist;
+- stage_area: Schema para realizar limpeza dos dados e realização da modelagem dimensional; 
+- relational_modeling: Schema para comportar o modelo dimensional.
+
+OBS: O Schema e_commerce_olist foi criada para armazenar os dados brutos. A base de dados possuía algumas inconsistências de relacionamento e chaves primárias que foram solucionadas no Schema trasactional_model.
 
 
 ### **Base de dados:** ([link](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce))
